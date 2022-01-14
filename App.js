@@ -1,21 +1,9 @@
 import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
+import SignUpScreen from './components/screens/signup_screen';
 
 const MyFirstApp = () => {
-  return (
-    <View style={styles.center}>
-      <Text>Hello, World!</Text>
-    </View>
-  );
+  return <SignUpScreen />;
 };
-
-const styles = StyleSheet.create({
-  center: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 16,
-  },
-});
 
 export default MyFirstApp;
